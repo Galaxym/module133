@@ -1,0 +1,78 @@
+/* feuille de style M133 - site exemple 
+version 0.3 
+Patrick J. Bergeret novembre 2010 */
+html, body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+#header {
+	position: absolute;
+	border-bottom: 2px solid #3366FF;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	height: 100px;
+}
+#header h1 {
+	font: bold 2.5em Balthazar, "Blackadder ITC", "Comic Sans MS", "Arial Rounded MT Bold", Arial, sans-serif;
+	color: #859CFE;
+	padding: 5px 15px 15px;
+}
+img#iris {
+	top: 116px;
+	position: absolute;
+	left: 0em;
+	width: 150px;
+	height: 139px;
+	border-right: 1px solid #66FFFF;
+}
+#left {
+	border-right: 1px solid #66FFFF;
+	position: absolute;
+	left: 0px;
+	top: 255px;
+	width: 150px;
+}
+#left img {
+	width:16px;
+	height:16px;
+}
+#left a {
+	display: block;
+	list-style: url(none) none;
+	font: bold 0.75em/1.75em Arial, Helvetica, sans-serif;
+	border-bottom: 2px solid #859CFE;
+	color: #859CFE;
+	padding-left: 10px;
+	background: #66FFFF;
+	text-decoration: none;
+}
+#left a:hover {
+	color: #FFFFCC;
+}
+img.icon {
+	float: right;
+	border: 0px none;
+	clear: right;
+}
+#main {
+	border: 1px none #9CFE85;
+	margin: 120px 20px 40px 170px;
+	font: 1em "Times New Roman", Times, serif;
+}
+#main p, #main ul, #main li {
+	font: 1em Arial, Helvetica, sans-serif;
+}
+#main h1 {
+	font: bold 2em Balthazar, "Blackadder ITC", "Comic Sans MS", "Arial Rounded MT Bold", Arial, sans-serif;
+	color: #859CFE;
+}
+#main h2 {
+	font: bold 1.25em Balthazar, "Blackadder ITC", "Comic Sans MS", "Arial Rounded MT Bold", Arial, sans-serif;
+	color: #859CFE;
+}
+#main a {
+	color: #33CCFF;
+}
