@@ -3,7 +3,7 @@
         <form method="POST" action="memoform.php">
         	<table>
         		<tr>
-        			<td colspan="2"><textarea name="memotext" style="width: 300px; height: 100px;"></textarea></td>
+        			<td colspan="2"><textarea name="memotext" style="width: 250px; height: 75px;"></textarea></td>
         		</tr>
         		<tr>
         			<td><input type="submit"></td>
