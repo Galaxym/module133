@@ -17,7 +17,7 @@
     <img style="width:150px;height:139px" src="../img/2726_xhtml.gif" alt="Iris" name="iris" border="0" id="iris" />
     <div id="left">
         <a href="../index.php"><img style="width:16px;height:16px" src="../img/home.gif" alt="icon" class="icon" /> Accueil</a>
-        <a href="xhtml.php"><img style="width:16px;height:16px" src="../img/xhtml.gif" alt="icon" class="icon" /> XHTML</a>
+        <a href="../xhtml/xhtml.php"><img style="width:16px;height:16px" src="../img/xhtml.gif" alt="icon" class="icon" /> XHTML</a>
         <a href="../lecss/css.php"><img style="width:16px;height:16px" src="../img/css.gif" alt="icon" class="icon" /> CSS</a>
         <a href="../lephp/php.php"> PHP</a>
         <a href="../memo/memo.php"><img style="width:16px;height:16px" src="../img/memo.gif" alt="icon" class="icon" /> Mémo</a>
