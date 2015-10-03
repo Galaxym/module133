@@ -23,5 +23,7 @@
         <a href="memo/memo.php"><img style="width:16px;height:16px" src="img/memo.gif" alt="icon" class="icon" /> Mémo</a>
         <a href="liens/liens.php"> Liens</a>
         <a href="identification/login.php"> Identification</a>
+        <a href="deconnexion/deco.php"> Déconnexion</a>
+
     </div>
     <div id="main">

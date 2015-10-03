@@ -1,4 +1,15 @@
-		<?php include '../templates/header.php'; ?>
+	<?php
+
+        
+        session_start();            
+
+        if(isset($_SESSION['login']) == TRUE)
+        {
+            header('Location: ../index.php');
+        }
+
+        include '../templates/header.php'; 
+        ?>
         <h2>Identification</h2>
         <form action="veriflogin.php" method="POST">
         	<table>

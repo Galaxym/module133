@@ -1,4 +1,15 @@
-		<?php include '../templates/header.php'; ?>
+	<?php
+
+         session_start();
+
+         if($_SESSION['login'] == FALSE)
+         {
+                header('Location: ../index.php');
+         }
+
+        include '../templates/header.php'; 
+        ?>
+
         <h2>Mémo</h2>
         <form method="POST" action="memoform.php">
         	<table>
@@ -11,4 +22,16 @@
         		</tr>
         	</table>
         </form>
+        <br>
+        <div id="messages">
+        <?php 
+                if(isset($_SESSION['$memobypseudo']))
+                {
+                        foreach ($_SESSION['$memobypseudo'] as $memo)
+                        {
+                        echo $memo.'<br><br>';
+                        } 
+                }
+        ?> 
+        </div>
         <?php include '../templates/footer.php'; ?>
